@@ -1,0 +1,1155 @@
+.bigcontainer{
+    height: 1300px;
+}
+
+.general{
+    display: flex;
+    gap: 10px;
+    width: 2000px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 'item1 item2 item2'
+    'item3 item3 item4'
+    'item5 item6 item6';
+    border: 3px solid black;
+
+}
+.item1{
+    grid-area: item1;
+    background-color: aqua;
+}
+.item2{
+    grid-area: item2;
+    background-color: blueviolet;
+}
+.item3{
+    grid-area: item3;
+    background-color: bisque;
+}
+.item4{
+    grid-area: item4;
+    background-color: yellow;
+}
+.item5{
+    grid-area: item5;
+    background-color: yellowgreen;
+}
+.item6{
+    grid-area: item6;
+    background-color: brown;
+}
+.container2{
+    width: 300px;
+   
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas:'item7 item8 item9'
+    'item10 item8 item11'
+    'item10 item12 item11' ;
+    border: 3px solid black;
+}
+.item7{
+    grid-area: item7;
+    background-color: aqua;
+}
+.item8{
+    grid-area: item8;
+    background-color: blueviolet;
+}
+.item9{
+    grid-area: item9;
+    background-color: bisque;
+}
+.item10{
+    grid-area: item10;
+    background-color: yellow;
+}
+.item11{
+    grid-area: item11;
+    background-color: yellowgreen;
+}
+.item12{
+    grid-area: item12;
+    background-color: brown;
+}
+.container3{
+    
+        width: 300px;
+        
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-areas: 'item13 item13 item14'
+        'item13 item13 item15'
+        'item16 item17 item18';
+        border: 3px solid black;
+    
+    
+}
+.item13{
+    grid-area: item13;
+    background-color: aqua;
+}
+.item14{
+    grid-area: item14;
+    background-color: blueviolet;
+}
+.item15{
+    grid-area: item15;
+    background-color: bisque;
+}
+.item16{
+    grid-area: item16;
+    background-color: yellow;
+}
+.item17{
+    grid-area: item17;
+    background-color: yellowgreen;
+}
+.item18{
+    grid-area: item18;
+    background-color: brown;
+}
+.container4{
+    
+    width: 300px;
+    
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas: 'item19 item19 item20 item21 item21'
+    'item22 item23 item23 item23 item24'
+    'item25 item23 item23 item23 item26'
+    'item27 item27 item28 item29 item29';
+    border: 3px solid black;
+
+
+}
+.item19{
+    grid-area: item19;
+    background-color: aqua;
+}
+.item20{
+    grid-area: item20;
+    background-color: blueviolet;
+}
+.item21{
+    grid-area: item21;
+    background-color: bisque;
+}
+.item22{
+    grid-area: item22;
+    background-color: yellow;
+}
+.item23{
+    grid-area: item23;
+    background-color: yellowgreen;
+}
+.item24{
+    grid-area: item24;
+    background-color: brown;
+}
+.item25{
+    background-color: tomato;
+    grid-area: item25;
+}
+.item26{
+    background-color: thistle;
+    grid-area: item26;
+}
+.item27{
+    background-color: teal;
+    grid-area: item27;
+}
+.item28{
+    background-color: slateblue;
+    grid-area: item28;
+}
+.item29{
+    background-color: purple;
+    grid-area: item29;
+}
+.container5{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 50px 50px 100px;
+    grid-template-rows: 100px 50px 50px 1fr;
+    grid-template-areas: 'item30 item31 item31 item31'
+    'item32 item33 item34 item35'
+    'item32 item36 item37 item35'
+    'item38 item38 item38 item39 '
+    
+    ;
+    
+    border: 3px solid black;
+    
+
+
+}
+
+.item30{
+    grid-area: item30;
+    background-color: blueviolet;
+}
+.item31{
+    grid-area: item31;
+    background-color: bisque;
+}
+.item32{
+    grid-area: item32;
+    background-color: yellow;
+}
+.item33{
+    grid-area: item33;
+    background-color: yellowgreen;
+}
+.item34{
+    grid-area: item34;
+    background-color: brown;
+}
+.item35{
+    background-color: tomato;
+    grid-area: item35;
+}
+.item36{
+    background-color: thistle;
+    grid-area: item36;
+}
+.item37{
+    background-color: teal;
+    grid-area: item37;
+}
+.item38{
+    background-color: slateblue;
+    grid-area: item38;
+}
+.item39{
+    background-color: purple;
+    grid-area: item39;
+}
+.container6{
+    width: 300px;
+    /* height: 300px; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 50px 50px;
+    grid-template-areas: 'item40 item41 item42'
+    'item40 item41 item42'
+    'item43 item43 item43'
+    'item43 item43 item43'
+    'item43 item43 item43'
+    'item44 item45 item46';
+    border: 3px solid black;
+
+}
+.item40{
+    grid-area: item40;
+    background-color: bisque;
+}
+.item41{
+    grid-area: item41;
+    background-color: yellow;
+}
+.item42{
+    grid-area: item42;
+    background-color: yellowgreen;
+}
+.item43{
+    grid-area: item43;
+    background-color: brown;
+}
+.item44{
+    background-color: tomato;
+    grid-area: item44;
+}
+.item45{
+    background-color: thistle;
+    grid-area: item45;
+}
+.item46{
+    background-color: teal;
+    grid-area: item46;
+}
+.item47{
+    background-color: slateblue;
+    grid-area: item47;
+}
+.item48{
+    background-color: purple;
+    grid-area: item48;
+}
+.general2{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 2000px;
+}
+.menu{
+    width: 300px;
+   height: 300px;
+    display: grid;
+    grid-template-columns:50px 50px 100px 100px;
+    grid-template-rows:  150px 75px 75px;
+    grid-template-areas:'main1 main1 main1 main1 '
+    'main2 main3 main4 main5'
+    'main6 main6 main4 main5' ;
+    border: 3px solid black;
+}
+.main1{
+    grid-area: main1;
+    background-color: aqua;
+}
+.main2{
+    grid-area: main2;
+    background-color: blueviolet;
+}
+.main3{
+    grid-area: main3;
+    background-color: bisque;
+}
+.main4{
+    grid-area: main4;
+    background-color: yellow;
+}
+.main5{
+    grid-area: main5;
+    background-color: yellowgreen;
+}
+.main6{
+    grid-area: main6;
+    background-color: brown;
+}
+.menu2{
+    width: 300px;
+   height: 300px;
+    display: grid;
+    grid-template-columns:75px 150px 75px;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas:'main7 main7 main8'
+    'main7 main7 main9'
+    'main10 main11 main11'
+    'main12 main11 main11' ;
+    border: 3px solid black;
+}
+.main7{
+    grid-area: main7;
+    background-color: aqua;
+}
+.main8{
+    grid-area: main8;
+    background-color: blueviolet;
+}
+.main9{
+    grid-area: main9;
+    background-color: bisque;
+}
+.main10{
+    grid-area: main10;
+    background-color: yellow;
+}
+.main11{
+    grid-area: main11;
+    background-color: yellowgreen;
+}
+.main12{
+    grid-area: main12;
+    background-color: brown;
+}
+.menu3{
+    width: 300px;
+   height: 300px;
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:150px 75px 75px ;
+    grid-template-areas: 'main13 main13 main13'
+    'main14 main15 main16'
+    'main17 main15 main18';
+    border: 3px solid black;
+
+}
+.main13{
+    grid-area: main13;
+    background-color: aqua;
+}
+.main14{
+    grid-area: main14;
+    background-color: blueviolet;
+}
+.main15{
+    grid-area: main15;
+    background-color: bisque;
+}
+.main16{
+    grid-area: main16;
+    background-color: yellow;
+}
+.main17{
+    grid-area: main17;
+    background-color: yellowgreen;
+}
+.main18{
+    grid-area: main18;
+    background-color: brown;
+}
+.menu4{
+    width: 300px;
+   height: 300px;
+    display: grid;
+    grid-template-columns:60px 60px 60px 60px 60px;
+    grid-template-rows:50px 100px 50px 50px 50px ;
+    grid-template-areas:'main19 main19 main20 main21 main22' 
+    'main19 main19 main23 main23 main23'
+    'main24 main25 main23 main23 main23'
+    'main26 main26 main27 main27 main28'
+    'main26 main26 main27 main27 main29';
+    border: 3px solid black;
+
+}
+.main19{
+    grid-area: main19;
+    background-color: bisque;
+}
+.main20{
+    grid-area: main20;
+    background-color: yellow;
+}
+.main21{
+    grid-area: main21;
+    background-color: yellowgreen;
+}
+.main22{
+    grid-area: main22;
+    background-color: brown;
+}
+.main23{
+    background-color: tomato;
+    grid-area: main23;
+}
+.main24{
+    background-color: thistle;
+    grid-area: main24;
+}
+.main25{
+    background-color: teal;
+    grid-area: main25;
+}
+.main26{
+    background-color: slateblue;
+    grid-area: main26;
+}
+.main27{
+    background-color: purple;
+    grid-area: main27;
+}
+.main28{
+    background-color: sienna;
+    grid-area: main28;
+}
+.main29{
+    background-color: pink;
+    grid-area: main29;
+}
+.menu5{
+    width: 300px;
+   height: 300px;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 2fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-areas:'main30 main30 main31 main32'
+    'main30 main30 main33 main32 '
+    'main34 main35 main36 main36'
+    'main34 main37 main36 main36'
+    'main38 main38 main39 main40'
+    'main38 main38 main41 main40'
+
+    ;
+    border: 3px solid black;
+
+}.main30{
+    grid-area: main30;
+    background-color: aqua;
+}
+.main31{
+    grid-area: main31;
+    background-color: blueviolet;
+}
+.main32{
+    grid-area: main32;
+    background-color: bisque;
+}
+.main33{
+    grid-area: main33;
+    background-color: yellow;
+}
+.main34{
+    grid-area: main34;
+    background-color: yellowgreen;
+}
+.main35{
+    grid-area: main35;
+    background-color: brown;
+}
+.main36{
+    background-color: tomato;
+    grid-area: main36;
+}
+.main37{
+    background-color: thistle;
+    grid-area: main37;
+}
+.main38{
+    background-color: teal;
+    grid-area: main38;
+}
+.main39{
+    background-color: slateblue;
+    grid-area: main39;
+}
+.main40{
+    grid-area: main40;
+    background-color: royalblue;
+}
+.menu6{
+    width: 300px;
+   height: 300px;
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:50px 200px 50px;
+    grid-template-areas: 'main41 main42 main43'
+    'main44 main44 main44'
+    'main45 main46 main47';
+    border: 3px solid black;
+}
+.main41{
+    grid-area: main41;
+    background-color: aqua;
+}
+.main42{
+    grid-area: main42;
+    background-color: blueviolet;
+}
+.main43{
+    grid-area: main43;
+    background-color: bisque;
+}
+.main44{
+    grid-area: main44;
+    background-color: yellow;
+}
+.main45{
+    grid-area: main45;
+    background-color: yellowgreen;
+}
+.main46{
+    grid-area: main46;
+    background-color: brown;
+}
+.main47{
+    grid-area: main47;
+    background-color: violet;
+}
+.general3{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 2000px;
+}
+.three{
+    width: 300px;
+    height: 300px;
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas:'look look look look look  '
+     'look look look look look  '
+     'look look look look look  '
+     'look look look look look  '
+     
+     'look2 look3 look4 look5 look6 ' ;
+     border: 3px solid black;
+}
+
+.look{
+    grid-area: look;
+    background-color: aqua;
+}
+.look2{
+    grid-area: look2;
+    background-color: blueviolet;
+}
+.look3{
+    grid-area: look3;
+    background-color: bisque;
+}
+.look4{
+    grid-area: look4;
+    background-color: yellow;
+}
+.look5{
+    grid-area: look5;
+    background-color: yellowgreen;
+}
+.look6{
+    grid-area: look6;
+    background-color: brown;
+}
+.three2{
+    width: 300px;
+    height: 300px;
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    
+     grid-template-areas: 'look7 look8 look9 look10 look11' ;
+     border: 3px solid black;
+}
+.look7{
+    grid-area: look7;
+    background-color: blueviolet;
+}
+.look8{
+    grid-area: look8;
+    background-color: bisque;
+}
+.look9{
+    grid-area: look9;
+    background-color: yellow;
+}
+.look10{
+    grid-area: look10;
+    background-color: yellowgreen;
+}
+.look11{
+    grid-area: look11;
+    background-color: brown;
+}
+.three3{
+    width: 300px;
+    height: 300px;
+     display: grid;
+     grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    
+     grid-template-areas: 'look12'
+     'look13'
+     'look14'
+     'look15'
+     'look16' ;
+     border: 3px solid black;
+}
+.look12{
+    grid-area: look12;
+    background-color: blueviolet;
+}
+.look13{
+    grid-area: look13;
+    background-color: bisque;
+}
+.look14{
+    grid-area: look14;
+    background-color: yellow;
+}
+.look15{
+    grid-area: look15;
+    background-color: yellowgreen;
+}
+.look16{
+    grid-area: look16;
+    background-color: brown;
+}
+.three4{
+    width: 300px;
+    height: 300px;
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas:'look17 look18 look19 look20' 
+     'look21 look21 look19 look22'
+     'look21 look21 look19 look23'
+     'look24 look25 look26 look26'
+     'look24 look27 look26 look26'
+     'look24 look28 look26 look26';
+     border: 3px solid black;
+}
+.look17{
+    grid-area: look17;
+    background-color: aqua;
+}
+.look18{
+    grid-area: look18;
+    background-color: blueviolet;
+}
+.look19{
+    grid-area: look19;
+    background-color: bisque;
+}
+.look20{
+    grid-area: look20;
+    background-color: yellow;
+}
+.look21{
+    grid-area: look21;
+    background-color: yellowgreen;
+}
+.look22{
+    grid-area: look22;
+    background-color: brown;
+}
+.look23{
+    background-color: tomato;
+    grid-area: look23;
+}
+.look24{
+    background-color: thistle;
+    grid-area: look24;
+}
+.look25{
+    background-color: teal;
+    grid-area: look25;
+}
+.look26{
+    background-color: slateblue;
+    grid-area: look26;
+}
+.look27{
+    grid-area: look27;
+    background-color: royalblue;
+}
+.look28{
+    grid-area: look28;
+    background-color: sandybrown;
+}
+.three5{
+    width: 300px;
+    height: 300px;
+     display: grid;
+     grid-template-columns:20% 15% 15% 15% 15% 20% ;
+    grid-template-rows:25% 25% 25% 25% ;
+     grid-template-areas:'look29 look29 look30 look30 look31 look31'
+     'look32 look33 look33 look34 look34 look35'
+     'look36 look36 look37 look37 look38 look38'
+     'look39 look40 look40 look41 look41 look42';
+     border: 3px solid black;
+}
+.look29{
+    grid-area: look29;
+    background-color: aqua;
+}
+.look30{
+    grid-area: look30;
+    background-color: blueviolet;
+}
+.look31{
+    grid-area: look31;
+    background-color: bisque;
+}
+.look32{
+    grid-area: look32;
+    background-color: yellow;
+}
+.look33{
+    grid-area: look33;
+    background-color: yellowgreen;
+}
+.look34{
+    grid-area: look34;
+    background-color: brown;
+}
+.look35{
+    background-color: tomato;
+    grid-area: look35;
+}
+.look36{
+    background-color: thistle;
+    grid-area: look36;
+}
+.look37{
+    background-color: teal;
+    grid-area: look37;
+}
+.look38{
+    background-color: slateblue;
+    grid-area: look38;
+}
+.look39{
+    grid-area: look39;
+    background-color: royalblue;
+}
+.look40{
+    grid-area: look40;
+    background-color: sandybrown;
+}
+.look41{
+    grid-area: look41;
+    background-color: rebeccapurple;
+}
+.look42{
+    grid-area: look42;
+    background-color: springgreen;
+}
+.three6{
+    width: 300px;
+    height: 300px;
+     display: grid;
+     grid-template-columns:100px 100px 100px ;
+    grid-template-rows:75px 75px 75px 75px;
+     grid-template-areas:'look43 look44 look45'
+     'look46 look47 look47'
+     'look48 look47 look47'
+     'look49 look50 look51';
+     border: 3px solid black;
+}
+.look43{
+    grid-area: look43;
+    background-color: blueviolet;
+}
+.look44{
+    grid-area: look44;
+    background-color: bisque;
+}
+.look45{
+    grid-area: look45;
+    background-color: yellow;
+}
+.look46{
+    grid-area: look46;
+    background-color: yellowgreen;
+}
+.look47{
+    grid-area: look47;
+    background-color: brown;
+}
+.look48{
+    grid-area: look48;
+    background-color: blue;
+}
+.look49{
+    grid-area: look49;
+    background-color: burlywood;
+}
+.look50{
+    grid-area: look50;
+    background-color: chartreuse;
+}
+.look51{
+    grid-area: look51;
+    background-color: aquamarine;
+}
+.general4{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 2000px;
+}
+.four{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 50px 50px;
+    grid-template-areas: 'box box box box'
+    'box2 box2 box2 box2'
+    'box3 box4 box5 box6'
+    'box3 box7 box5 box8';
+}
+
+.box{
+    grid-area: box;
+    background-color: bisque;
+}
+.box2{
+    grid-area: box2;
+    background-color: yellow;
+}
+.box3{
+    grid-area: box3;
+    background-color: yellowgreen;
+}
+.box4{
+    grid-area: box4;
+    background-color: brown;
+}
+.box5{
+    grid-area: box5;
+    background-color: blue;
+}
+.box6{
+    grid-area: box6;
+    background-color: burlywood;
+}
+.box7{
+    grid-area: box7;
+    background-color: chartreuse;
+}
+.box8{
+    grid-area: box8;
+    background-color: aquamarine;
+}
+.four2{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:'box9 box10 box10'
+    'box9 box11 box12'
+    'box9 box13 box13'
+    'box9 box14 box15' ;
+}
+.box9{
+    grid-area: box9;
+    background-color: bisque;
+}
+.box10{
+    grid-area: box10;
+    background-color: yellow;
+}
+.box11{
+    grid-area: box11;
+    background-color: yellowgreen;
+}
+.box12{
+    grid-area: box12;
+    background-color: brown;
+}
+.box13{
+    grid-area: box13;
+    background-color: blue;
+}
+.box14{
+    grid-area: box14;
+    background-color: burlywood;
+}
+.box15{
+    grid-area: box15;
+    background-color: chartreuse;
+}
+.box16{
+    grid-area: box16;
+    background-color: aquamarine;
+}
+.four3{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 50px 50px 100px;
+    grid-template-areas:'box17 box18 box19'
+    'box20 box18 box21'
+    'box20 box22 box21'
+    'box23 box22 box24' ;
+}
+
+.box17{
+    grid-area: box17;
+    background-color: bisque;
+}
+.box18{
+    grid-area: box18;
+    background-color: yellow;
+}
+.box19{
+    grid-area: box19;
+    background-color: yellowgreen;
+}
+.box20{
+    grid-area: box20;
+    background-color: brown;
+}
+.box21{
+    grid-area: box21;
+    background-color: blue;
+}
+.box22{
+    grid-area: box22;
+    background-color: burlywood;
+}
+.box23{
+    grid-area: box23;
+    background-color: chartreuse;
+}
+.box24{
+    grid-area: box24;
+    background-color: palevioletred;
+}
+.four4{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns:100px 50px 50px 50px 50px ;
+    grid-template-rows: 100px 50px 50px 50px 50px;
+    grid-template-areas: 'box25 box25 box25 box26 box26'
+    'box25 box25 box25 box27 box28'
+    'box25 box25 box25 box29 box30'
+    'box31 box32 box33 box34 box34'
+    'box31 box35 box36 box34 box34';
+}
+.box25{
+    grid-area: box25;
+    background-color: bisque;
+}
+.box26{
+    grid-area: box26;
+    background-color: yellow;
+}
+.box27{
+    grid-area: box27;
+    background-color: yellowgreen;
+}
+.box28{
+    grid-area: box28;
+    background-color: brown;
+}
+.box29{
+    grid-area: box29;
+    background-color: blue;
+}
+.box30{
+    grid-area: box30;
+    background-color: burlywood;
+}
+.box31{
+    grid-area: box31;
+    background-color: chartreuse;
+}
+.box32{
+    grid-area: box32;
+    background-color: palevioletred;
+}
+.box33{
+    grid-area: box33;
+    background-color: aquamarine;
+}
+.box34{
+    grid-area: box34;
+    background-color: chocolate;
+}
+.box35{
+    grid-area: box35;
+    background-color: thistle;
+}
+.box36{
+    grid-area: box36;
+    background-color: cadetblue;
+}
+.four5{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25% ;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas:'box37 box38 box39 box40'
+    'box41 box42 box43 box44'
+    'box45 box46 box47 box48' ;
+}
+.box37{
+    grid-area: box37;
+    background-color: bisque;
+}
+.box38{
+    grid-area: box38;
+    background-color: yellow;
+}
+.box39{
+    grid-area: box39;
+    background-color: yellowgreen;
+}
+.box40{
+    grid-area: box40;
+    background-color: brown;
+}
+.box41{
+    grid-area: box41;
+    background-color: blue;
+}
+.box42{
+    grid-area: box42;
+    background-color: burlywood;
+}
+.box43{
+    grid-area: box43;
+    background-color: chartreuse;
+}
+.box44{
+    grid-area: box44;
+    background-color: palevioletred;
+}
+.box45{
+    grid-area: box45;
+    background-color: aquamarine;
+}
+.box46{
+    grid-area: box46;
+    background-color: chocolate;
+}
+.box47{
+    grid-area: box47;
+    background-color: thistle;
+}
+.box48{
+    grid-area: box48;
+    background-color: cadetblue;
+}
+.four6{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:50px 100px 100px 50px ;
+    grid-template-areas:'box49 box50 box51'
+    'box52 box53 box53'
+    'box54 box53 box53'
+    'box55 box56 box57';
+}
+.box49{
+    grid-area: box49;
+    background-color: yellowgreen;
+}
+.box50{
+    grid-area: box50;
+    background-color: brown;
+}
+.box51{
+    grid-area: box51;
+    background-color: blue;
+}
+.box52{
+    grid-area: box52;
+    background-color: burlywood;
+}
+.box53{
+    grid-area: box53;
+    background-color: chartreuse;
+}
+.box54{
+    grid-area: box54;
+    background-color: palevioletred;
+}
+.box55{
+    grid-area: box55;
+    background-color: aquamarine;
+}
+.box56{
+    grid-area: box56;
+    background-color: chocolate;
+}
+.box57{
+    grid-area: box57;
+    background-color: thistle;
+}
+.box58{
+    grid-area: box58;
+    background-color: cadetblue;
+}
